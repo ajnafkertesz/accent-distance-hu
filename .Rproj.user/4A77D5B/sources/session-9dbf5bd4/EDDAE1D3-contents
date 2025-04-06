@@ -45,7 +45,7 @@ id_part <- build_timeline(id_quest)
 
 # Instructions for experiment
 instructions1 <- trial_instructions(
-  pages = c('<p>Üdvözlünk to the Fonetikai Hasonlóság Kutatásban!</p>
+  pages = c('<p>Üdvözlünk a Fonetikai Hasonlóság Kutatásban!</p>
   <p> Az instrukciókért kattints a "tovább" gombra.</p>'),
   show_clickable_nav = TRUE,
   button_label_previous = "Előző",
@@ -170,6 +170,8 @@ response1 <- trial_audio_button_response(
 trial2 <- trial_instructions(
   pages = c("2. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -228,6 +230,8 @@ response2 <- trial_audio_button_response(
 trial3 <- trial_instructions(
   pages = c("3. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -287,9 +291,10 @@ trial4 <- trial_instructions(
   pages = c("4. Triád: Kattints a \"továbbra\" a kezdéshez.
 ."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
-
 random_HUN <- sample(random_HUN_audios, 1)
 
 phrase <- strsplit(random_HUN, split="_")[[1]][1]
@@ -346,9 +351,10 @@ trial5 <- trial_instructions(
   pages = c("5. Triád: Kattints a \"továbbra\" a kezdéshez.
 ."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
-
 random_HUN <- sample(random_HUN_audios, 1)
 
 phrase <- strsplit(random_HUN, split="_")[[1]][1]
@@ -405,6 +411,8 @@ trial6 <- trial_instructions(
   pages = c("6. Triád: Kattints a \"továbbra\" a kezdéshez.
 ."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -464,6 +472,8 @@ trial7 <- trial_instructions(
   pages = c("7. Triád: Kattints a \"továbbra\" a kezdéshez.
 "),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -523,6 +533,8 @@ trial8 <- trial_instructions(
   pages = c("8. Triád: Kattints a \"továbbra\" a kezdéshez.
 "),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -582,6 +594,8 @@ trial9 <- trial_instructions(
   pages = c("9. Triád: Kattints a \"továbbra\" a kezdéshez.
 ."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -638,9 +652,11 @@ response9 <- trial_audio_button_response(
 
 # trial 10
 trial10 <- trial_instructions(
-  pages = c("1ö. Triád: Kattints a \"továbbra\" a kezdéshez.
+  pages = c("10. Triád: Kattints a \"továbbra\" a kezdéshez.
 "),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -697,9 +713,10 @@ response10 <- trial_audio_button_response(
 
 # trial 11
 trial11 <- trial_instructions(
-  pages = c("11. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("11. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -756,12 +773,12 @@ response11 <- trial_audio_button_response(
 
 # trial 12
 trial12 <- trial_instructions(
-  pages = c("12. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("12. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
-
 random_HUN <- sample(random_HUN_audios, 1)
 
 phrase <- strsplit(random_HUN, split="_")[[1]][1]
@@ -815,9 +832,10 @@ response12 <- trial_audio_button_response(
 
 # trial 13
 trial13 <- trial_instructions(
-  pages = c("13. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("13. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -874,9 +892,10 @@ response13 <- trial_audio_button_response(
 
 # trial 14
 trial14 <- trial_instructions(
-  pages = c("14. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("14. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -933,9 +952,10 @@ response14 <- trial_audio_button_response(
 
 # trial 15
 trial15 <- trial_instructions(
-  pages = c("15. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("15. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -992,9 +1012,10 @@ response15 <- trial_audio_button_response(
 
 # trial 16
 trial16 <- trial_instructions(
-  pages = c("16. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("16. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1051,9 +1072,10 @@ response16 <- trial_audio_button_response(
 
 # trial 17
 trial17 <- trial_instructions(
-  pages = c("17. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("17. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1110,9 +1132,10 @@ response17 <- trial_audio_button_response(
 
 # trial 18
 trial18 <- trial_instructions(
-  pages = c("18. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("18. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1171,6 +1194,8 @@ response18 <- trial_audio_button_response(
 trial19 <- trial_instructions(
   pages = c("19. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1229,6 +1254,8 @@ response19 <- trial_audio_button_response(
 trial20 <- trial_instructions(
   pages = c("20. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1285,9 +1312,10 @@ response20 <- trial_audio_button_response(
 
 # trial 21
 trial21 <- trial_instructions(
-  pages = c("21. Triád: Kattints a \"továbbra\" a kezdéshez.
-n."),
+  pages = c("21. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1344,9 +1372,10 @@ response21 <- trial_audio_button_response(
 
 # trial 22
 trial22 <- trial_instructions(
-  pages = c("22. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("22. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1403,9 +1432,10 @@ response22 <- trial_audio_button_response(
 
 # trial 23
 trial23 <- trial_instructions(
-  pages = c("23. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("23. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1462,9 +1492,10 @@ response23 <- trial_audio_button_response(
 
 # trial 24
 trial24 <- trial_instructions(
-  pages = c("24. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("24. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1521,9 +1552,10 @@ response24 <- trial_audio_button_response(
 
 # trial 25
 trial25 <- trial_instructions(
-  pages = c("25. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("25. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1580,9 +1612,10 @@ response25 <- trial_audio_button_response(
 
 # trial 26
 trial26 <- trial_instructions(
-  pages = c("26. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("26. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1639,9 +1672,10 @@ response26 <- trial_audio_button_response(
 
 # trial 27
 trial27 <- trial_instructions(
-  pages = c("27. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("27. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1698,9 +1732,10 @@ response27 <- trial_audio_button_response(
 
 # trial 28
 trial28 <- trial_instructions(
-  pages = c("28. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("28. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1757,12 +1792,12 @@ response28 <- trial_audio_button_response(
 
 # trial 29
 trial29 <- trial_instructions(
-  pages = c("29. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("29. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
-
 random_HUN <- sample(random_HUN_audios, 1)
 
 phrase <- strsplit(random_HUN, split="_")[[1]][1]
@@ -1816,9 +1851,10 @@ response29 <- trial_audio_button_response(
 
 # trial 30
 trial30 <- trial_instructions(
-  pages = c("30. Triád: Kattints a \"továbbra\" a kezdéshez.
-."),
+  pages = c("30. Triád: Kattints a \"továbbra\" a kezdéshez."),
   show_clickable_nav = TRUE,
+  button_label_previous = "Előző",
+  button_label_next = "Tovább",
   post_trial_gap = 250
 )
 
@@ -1910,7 +1946,7 @@ trials <- build_timeline(trial1, us_prompt1, first_prompt1, second_prompt1,
 # (2) Finish screen
 finish <- trial_html_keyboard_response(
   stimulus = "<p>Köszönjük a részvételt, a válaszaidat rögzítettük.</p>
-  <p>A kutatás befejezéséhez, kérlek töltsd ki ezt a rövid demográfiai adatlapot. Kattints <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://utexas.qualtrics.com/jfe/form/SV_es5YLeHNdLkWZ4W\">ide</a> az adatlaphoz.</p>",
+  <p>A kutatás befejezéséhez, kérlek töltsd ki ezt a rövid demográfiai adatlapot. Kattints <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"insert link here\">ide</a> az adatlaphoz.</p>",
   choices = respond_any_key()
 )
 
