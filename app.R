@@ -1946,7 +1946,7 @@ trials <- build_timeline(trial1, us_prompt1, first_prompt1, second_prompt1,
 # (2) Finish screen
 finish <- trial_html_keyboard_response(
   stimulus = "<p>Köszönjük a részvételt, a válaszaidat rögzítettük.</p>
-  <p>A kutatás befejezéséhez, kérlek töltsd ki ezt a rövid demográfiai adatlapot. Kattints <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"insert link here\">ide</a> az adatlaphoz.</p>",
+  <p>A kutatás befejezéséhez, kérlek töltsd ki ezt a rövid demográfiai adatlapot. Kattints <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://elteppk.eu.qualtrics.com/jfe/form/SV_5c07zAfGqueIV1k\">ide</a> az adatlaphoz.</p>",
   choices = respond_any_key()
 )
 
